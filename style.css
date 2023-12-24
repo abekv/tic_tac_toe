@@ -33,7 +33,7 @@ h1 {
     gap: 1.5vmin;
 }
 .box{
-    font-family: 'Concert One', sans-serif;
+    font-family: 'Concert One', 'sans-serif';
     height: 18vmin;
     cursor: pointer;
     width: 18vmin;
