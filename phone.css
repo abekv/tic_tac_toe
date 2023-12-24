@@ -1,0 +1,7 @@
+#msg{
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #ececec;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px #fee400, 0 0 10px #ffe500, 0 0 15px #f7de00, 0 0 20px #efe379, 0 0 25px #ded480;
+}

@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right top, #0f1520, #243b55);
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #c8ce67b8;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px #0073e6, 0 0 10px #0073e6, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6;
+}
+.gamecontainer{
+    height: 94.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 65vmin;
+    width: 65vmin;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    font-family: 'Concert One', sans-serif;
+    height: 18vmin;
+    cursor: pointer;
+    width: 18vmin;
+    border-radius: 15px;
+    border: none;
+    box-shadow:  0 0 1rem rgb(0 0 0 / 88%);
+    font-size: 15vmin;
+    background-color:#5a708f;
+    color: #f74b6ba8;
+    text-shadow:  0 0 5px #fff, 0 0 10px #fff, 0 0 5px #0073e6, 0 0 10px #0073e6, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6;
+}
+.box:hover{
+    background-color:#738bae;
+    color: #fd5c7aa8;
+    box-shadow:  0 0 1rem rgba(49, 48, 48, 0.925);
+    text-shadow:  0 0 5px #fff, 0 0 10px #fff, 0 0 5px #1f8fff, 0 0 10px #1f8fff, 0 0 15px #1f8fff, 0 0 20px #1f8fff, 0 0 25px #1f8fff;
+}
+#msg{
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #ececec;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px #fee400, 0 0 10px #ffe500, 0 0 15px #f7de00, 0 0 20px #efe379, 0 0 25px #ded480;
+}
+.msg-container{
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+#reset-btn{
+    margin-top: 40px;
+    padding: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.6rem;
+    background-color: #2a2e4d;
+    color: #faffa6;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(135 135 135);
+}
+#reset-btn:hover{
+    background-color: #2a3057;
+    color: #fcff98;
+    box-shadow: 0 0 1rem rgb(237, 240, 133);
+}
+.hide{display: none;}
