@@ -33,6 +33,9 @@ h1 {
     gap: 1.5vmin;
 }
 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Concert One', 'sans-serif';
     height: 18vmin;
     cursor: pointer;
