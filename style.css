@@ -36,6 +36,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: 'Concert One', 'sans-serif';
     height: 18vmin;
     cursor: pointer;
